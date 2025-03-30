@@ -18,7 +18,7 @@ public class Main {
 //                        .phone("1233-4566-7889")
 //                .build());
 //        doctorDao.countDoctorBy("Internal Medicine").entrySet().forEach(System.out::println);
-//        doctorDao.findDoctorBy("Internal").forEach(System.out::println);
-        System.out.println(doctorDao.updateDiagnosis("PT00AA", "DR.007", "not trivial at all:))"));
+        doctorDao.findDoctorBy("Internal").forEach(System.out::println);
+//        System.out.println(doctorDao.updateDiagnosis("PT00AA", "DR.007", "not trivial at all:))"));
     }
 }
